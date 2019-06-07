@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95" started-at="2019-05-27T20:42:16Z" finished-at="2019-05-27T20:42:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95" started-at="2019-05-27T20:42:16Z" finished-at="2019-05-27T20:42:16Z">
+      <class name="qaclickacademy.CarTest">
+        <test-method status="PASS" signature="carprice()[pri:0, instance:qaclickacademy.CarTest@cb5822]" name="carprice" duration-ms="20" started-at="2019-05-27T20:42:16Z" finished-at="2019-05-27T20:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carprice -->
+      </class> <!-- qaclickacademy.CarTest -->
+      <class name="qaclickacademy.BikeTest">
+        <test-method status="PASS" signature="bikemodel()[pri:0, instance:qaclickacademy.BikeTest@4b9e13df]" name="bikemodel" duration-ms="3" started-at="2019-05-27T20:42:16Z" finished-at="2019-05-27T20:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikemodel -->
+        <test-method status="PASS" signature="bikeprice()[pri:0, instance:qaclickacademy.BikeTest@4b9e13df]" name="bikeprice" duration-ms="2" started-at="2019-05-27T20:42:16Z" finished-at="2019-05-27T20:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeprice -->
+        <test-method status="PASS" signature="bikecc()[pri:0, instance:qaclickacademy.BikeTest@4b9e13df]" name="bikecc" duration-ms="2" started-at="2019-05-27T20:42:16Z" depends-on-methods="qaclickacademy.BikeTest.bikemodel" finished-at="2019-05-27T20:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikecc -->
+      </class> <!-- qaclickacademy.BikeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
